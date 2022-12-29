@@ -63,6 +63,8 @@ function App() {
       description: description,
     };
     setTodoLists([...todoLists, newTodolist]);
+    setTitle('');
+    setDedescription('');
   };
 
   //완료 버튼
